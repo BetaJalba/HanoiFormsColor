@@ -40,12 +40,12 @@ namespace BelGiocoHanoi
                 row.Height = DATGRDVIEW.Height / DATGRDVIEW.RowCount;
             }
 
-            for (int i = DATGRDVIEW.RowCount; i < DATGRDVIEW.ColumnCount; i++)
+            /*for (int i = DATGRDVIEW.RowCount; i < DATGRDVIEW.ColumnCount; i++)
             {
                 DataGridViewColumn column = DATGRDVIEW.Columns[i];
                 column.MinimumWidth = 2;
                 column.Width = DATGRDVIEW.Width / DATGRDVIEW.ColumnCount;
-            }
+            }*/
         }
 
         private void DATGRDVIEW_CellContentClick(object sender, DataGridViewCellEventArgs e)
